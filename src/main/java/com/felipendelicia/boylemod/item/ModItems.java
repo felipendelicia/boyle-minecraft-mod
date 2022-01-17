@@ -2,7 +2,6 @@ package com.felipendelicia.boylemod.item;
 
 import com.felipendelicia.boylemod.BoyleMod;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,6 +30,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> OXYGEN_BOTTLE = ITEMS.register("oxygen_bottle",
             () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static void register(IEventBus eventBus){
