@@ -7,6 +7,11 @@
   "item.boylemod.cobalt_ingot": "Lingote de cobalto",
   "item.boylemod.silver_ingot": "Lingote de plata",
   "item.boylemod.oxygen_bottle": "Oxigeno embotellado",
+  "item.boylemod.nitrogen_bottle": "Nitrogeno embotellado",
+  "item.boylemod.chlorine_bottle": "Cloro embotellado",
+  "item.boylemod.fluorine_bottle": "Fluor embotellado",
+  "item.boylemod.hidrogen_bottle": "Hidrogeno embotellado",
+  "item.boylemod.iodine_bottle": "Iodo embotellado",
 
   "itemGroup.BoyleMod:Items": "BoyleMod: Materiales"
 }

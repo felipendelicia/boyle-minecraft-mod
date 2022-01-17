@@ -35,6 +35,21 @@ public class ModItems {
     public static final RegistryObject<Item> OXYGEN_BOTTLE = ITEMS.register("oxygen_bottle",
             () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
+    public static final RegistryObject<Item> NITROGEN_BOTTLE = ITEMS.register("nitrogen_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> CHLORINE_BOTTLE = ITEMS.register("chlorine_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> FLUORINE_BOTTLE = ITEMS.register("fluorine_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> HIDROGEN_BOTTLE = ITEMS.register("hidrogen_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> IODINE_BOTTLE = ITEMS.register("iodine_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
