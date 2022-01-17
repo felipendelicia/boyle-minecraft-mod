@@ -1,3 +1,4 @@
 {
-  "item.boylemod.aluminum_ingot" : "Lingote de aluminio"
+  "item.boylemod.aluminum_ingot" : "Lingote de aluminio",
+  "item.boylemod.copper_ingot": "Lingote de cobre"
 }

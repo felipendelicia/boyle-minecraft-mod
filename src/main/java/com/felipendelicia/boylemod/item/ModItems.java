@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
             () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot",
+            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
