@@ -1,4 +1,8 @@
 {
   "item.boylemod.aluminum_ingot" : "Lingote de aluminio",
-  "item.boylemod.copper_ingot": "Lingote de cobre"
+  "item.boylemod.copper_ingot": "Lingote de cobre",
+  "item.boylemod.tin_ingot": "Lingote de estaño",
+  "item.boylemod.lead_ingot": "Lingote de plomo",
+  "item.boylemod.nickel_ingot": "Lingote de niquel",
+  "item.boylemod.cobalt_ingot": "Lingote de cobalto"
 }
