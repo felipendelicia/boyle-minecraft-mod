@@ -30,6 +30,9 @@ public class ModItems {
     public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot",
             () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
