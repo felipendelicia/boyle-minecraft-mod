@@ -13,22 +13,22 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BoyleMod.MOD_ID);
 
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

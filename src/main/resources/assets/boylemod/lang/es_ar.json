@@ -4,5 +4,7 @@
   "item.boylemod.tin_ingot": "Lingote de estaño",
   "item.boylemod.lead_ingot": "Lingote de plomo",
   "item.boylemod.nickel_ingot": "Lingote de niquel",
-  "item.boylemod.cobalt_ingot": "Lingote de cobalto"
+  "item.boylemod.cobalt_ingot": "Lingote de cobalto",
+
+  "itemGroup.BoyleMod:Items": "BoyleMod: Materiales"
 }
