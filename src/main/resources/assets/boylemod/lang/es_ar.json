@@ -12,6 +12,9 @@
   "item.boylemod.fluorine_bottle": "Fluor embotellado",
   "item.boylemod.hidrogen_bottle": "Hidrogeno embotellado",
   "item.boylemod.iodine_bottle": "Iodo embotellado",
+  "item.boylemod.sodium": "Sodio",
+  "item.boylemod.lithium": "Litio",
+  "item.boylemod.potassium": "Potasio",
 
-  "itemGroup.BoyleMod:Items": "BoyleMod: Materiales"
+  "itemGroup.BoyleMod:Items": "BoyleMod: Items"
 }

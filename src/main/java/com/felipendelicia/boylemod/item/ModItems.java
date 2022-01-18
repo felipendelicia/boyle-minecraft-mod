@@ -50,6 +50,15 @@ public class ModItems {
     public static final RegistryObject<Item> IODINE_BOTTLE = ITEMS.register("iodine_bottle",
             () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
+    public static final RegistryObject<Item> SODIUM = ITEMS.register("sodium",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> LITHIUM = ITEMS.register("lithium",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> POTASSIUM = ITEMS.register("potassium",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
