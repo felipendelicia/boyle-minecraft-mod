@@ -1,5 +1,6 @@
 package com.felipendelicia.boylemod;
 
+import com.felipendelicia.boylemod.block.ModBlocks;
 import com.felipendelicia.boylemod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -34,6 +35,7 @@ public class BoyleMod
         final IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

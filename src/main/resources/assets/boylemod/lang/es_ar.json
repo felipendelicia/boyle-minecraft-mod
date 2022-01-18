@@ -19,5 +19,7 @@
   "item.boylemod.cesium": "Cesio",
   "item.boylemod.francium": "Francio",
 
+  "block.boylemod.aluminum_block": "Bloque de aluminio",
+
   "itemGroup.BoyleMod:Items": "BoyleMod: Items"
 }
