@@ -62,6 +62,12 @@ public class ModItems {
     public static final RegistryObject<Item> RUBIDIUM = ITEMS.register("rubidium",
             () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
 
+    public static final RegistryObject<Item> CESIUM = ITEMS.register("cesium",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
+    public static final RegistryObject<Item> FRANCIUM = ITEMS.register("francium",
+            () -> new Item(new Item.Properties().group(ModItemGroup.BOYLE_GROUP_ITEMS)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

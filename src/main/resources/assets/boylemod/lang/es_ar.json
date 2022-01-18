@@ -16,6 +16,8 @@
   "item.boylemod.lithium": "Litio",
   "item.boylemod.potassium": "Potasio",
   "item.boylemod.rubidium": "Rubidio",
+  "item.boylemod.cesium": "Cesio",
+  "item.boylemod.francium": "Francio",
 
   "itemGroup.BoyleMod:Items": "BoyleMod: Items"
 }
