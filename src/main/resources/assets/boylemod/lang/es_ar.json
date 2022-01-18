@@ -1,0 +1,21 @@
+{
+  "item.boylemod.aluminum_ingot" : "Lingote de aluminio",
+  "item.boylemod.copper_ingot": "Lingote de cobre",
+  "item.boylemod.tin_ingot": "Lingote de estaño",
+  "item.boylemod.lead_ingot": "Lingote de plomo",
+  "item.boylemod.nickel_ingot": "Lingote de niquel",
+  "item.boylemod.cobalt_ingot": "Lingote de cobalto",
+  "item.boylemod.silver_ingot": "Lingote de plata",
+  "item.boylemod.oxygen_bottle": "Oxigeno embotellado",
+  "item.boylemod.nitrogen_bottle": "Nitrogeno embotellado",
+  "item.boylemod.chlorine_bottle": "Cloro embotellado",
+  "item.boylemod.fluorine_bottle": "Fluor embotellado",
+  "item.boylemod.hidrogen_bottle": "Hidrogeno embotellado",
+  "item.boylemod.iodine_bottle": "Iodo embotellado",
+  "item.boylemod.sodium": "Sodio",
+  "item.boylemod.lithium": "Litio",
+  "item.boylemod.potassium": "Potasio",
+  "item.boylemod.rubidium": "Rubidio",
+
+  "itemGroup.BoyleMod:Items": "BoyleMod: Items"
+}
