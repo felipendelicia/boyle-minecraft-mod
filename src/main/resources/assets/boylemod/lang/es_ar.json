@@ -21,5 +21,6 @@
 
   "block.boylemod.aluminum_block": "Bloque de aluminio",
 
-  "itemGroup.BoyleMod:Items": "BoyleMod: Items"
+  "itemGroup.BoyleMod:Items": "BoyleMod: Items",
+  "itemGroup.BoyleMod:Blocks": "BoyleMod: Bloques"
 }
