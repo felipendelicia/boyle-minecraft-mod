@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "boylemod:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "boylemod:aluminum_block"
+  }
+}
