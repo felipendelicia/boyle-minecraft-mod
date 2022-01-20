@@ -34,6 +34,13 @@ public class ModBlocks {
                     .setRequiresTool()
                     .hardnessAndResistance(2f)));
 
+    public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(2f)));
+
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

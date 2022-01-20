@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "boylemod:block/tin_block"}
+  }
+}
