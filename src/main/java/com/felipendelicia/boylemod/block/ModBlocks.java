@@ -25,7 +25,14 @@ public class ModBlocks {
                     .harvestLevel(0)
                     .harvestTool(ToolType.PICKAXE)
                     .setRequiresTool()
-                    .hardnessAndResistance(5f)));
+                    .hardnessAndResistance(2f)));
+
+    public static final RegistryObject<Block> COPPER_BLOCK = registerBlock("copper_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(2f)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

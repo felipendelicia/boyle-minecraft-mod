@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+    "item": "boylemod:copper_block"
+  }
+  ],
+  "result": {
+    "item": "boylemod:copper_ingot",
+    "count": 9
+  }
+}
