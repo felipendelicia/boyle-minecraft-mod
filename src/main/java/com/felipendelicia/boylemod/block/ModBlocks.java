@@ -41,6 +41,34 @@ public class ModBlocks {
                     .setRequiresTool()
                     .hardnessAndResistance(2f)));
 
+    public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(3f)));
+
+    public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> NICKEL_BLOCK = registerBlock("nickel_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(3f)));
+
+    public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

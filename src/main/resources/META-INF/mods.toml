@@ -29,16 +29,24 @@ displayName="Boyle Mod" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits='''
+Gracias a nuestro profe nicolas por siempre apoyarnos y siempre darle para adelante!
+''' #optional
 # A text field displayed in the mod UI
-authors="Love, Cheese and small house plants" #optional
+authors='''
+Leandro Ezequiel Crego
+
+Gianella Nicole Carcomo
+
+Felipe Nahuel Delicia:
+GitHub: @felipendelicia
+''' #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
-
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+este fue un trabajo realizado por los alumnos del sexto año, division decima, de la escuela tecnica ingeniero luis augusto huergo (ET9 DE7).
+este desarrollo fue llevado acabo para resolver la problematica de falta de recursos tecnologicos en la educacion, llevado a cabo por los chicos del proyecto Boyle.
+la finalidad de este mod, ademas de hacer mas divertido al juego, es que los chicos de la escuela secundaria puedan simular diferentes practicas de laboratorio que no estan a su
+alcance en la escuela con el fin de alcanzar un mayor aprendizaje.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional

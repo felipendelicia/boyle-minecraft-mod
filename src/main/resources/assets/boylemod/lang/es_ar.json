@@ -22,6 +22,10 @@
   "block.boylemod.aluminum_block": "Bloque de aluminio",
   "block.boylemod.copper_block": "Bloque de cobre",
   "block.boylemod.tin_block": "Bloque de estaño",
+  "block.boylemod.cobalt_block": "Bloque de cobalto",
+  "block.boylemod.lead_block": "Bloque de plomo",
+  "block.boylemod.nickel_block": "Bloque de niquel",
+  "block.boylemod.silver_block": "Bloque de plata",
 
   "itemGroup.BoyleMod:Items": "BoyleMod: Items",
   "itemGroup.BoyleMod:Blocks": "BoyleMod: Bloques"

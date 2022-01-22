@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+    "item": "boylemod:lead_block"
+  }
+  ],
+  "result": {
+    "item": "boylemod:lead_ingot",
+    "count": 9
+  }
+}
